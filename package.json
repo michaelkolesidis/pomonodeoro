@@ -1,0 +1,36 @@
+{
+  "name": "pomonodeoro",
+  "version": "0.1.0",
+  "description": "A simple pomodoro timer for the terminal",
+  "main": "src.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/esbuild src.js --bundle --minify --platform=node --outfile=pomonodeoro.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michaelkolesidis/pomonodeoro.git"
+  },
+  "keywords": [
+    "pomodoro",
+    "terminal-based",
+    "pomodoro timer",
+    "pomodoro technique",
+    "pomodoro technique timer",
+    "pomodoro-cli",
+    "pomodoro tracker",
+    "pomodoro app"
+  ],
+  "author": "Michael Kolesidis <michael.kolesidis@gmail.com> (https://michaelkolesidis.com/)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/michaelkolesidis/pomonodeoro/issues"
+  },
+  "homepage": "https://github.com/michaelkolesidis/pomonodeoro#readme",
+  "dependencies": {
+    "node-notifier": "^10.0.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.16.15"
+  }
+}
