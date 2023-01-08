@@ -7,7 +7,7 @@
 const readline = require("readline");
 const notifier = require("node-notifier");
 
-process.stdout.write("\x1b[31mPomonodeoro\nv.0.0.1 \x1b[0m\n\n");
+process.stdout.write("\x1b[31mPomonodeoro\nv.0.1.0 \x1b[0m\n\n");
 
 function timer(totalTime) {
   let type;
