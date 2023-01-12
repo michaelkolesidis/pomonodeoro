@@ -1,4 +1,4 @@
-# Pomonodeoro
+# Pomonodeoro 🍅
 
 A simple pomodoro timer for the terminal. Choose between a pomodoro, a short or a long break and get a system notification when the time is over. Works on Linux, macOS and Windows.
 
